@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <title>IST Department at RIT</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
+   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.2/css/bulma.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma-rtl.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+  
+
+
+  
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+
+   <!--Navigation bar-->
+   <nav class="navbar is-black sticky">
+    <div class="navbar-brand">
+        <a href="index.html" class="navbar-item">
+            <img src="./media/logo.png" alt="site logo" style="max-height: 70px" class="py-2 px-2">
+        </a>
+
+        <!--Hamburger menu-->
+        <a href="" class="navbar-burger is-black " id="burgerResponsive">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+
+    <div class="navbar-menu" id="navLinks">
+        <div class="navbar-end ">
+         
+            <a href="#about-us" class="navbar-item">About us</a>
+            <a href="#undergraduate-link" class="navbar-item">Undergraduate</a>
+            <a href="#graduate-link" class="navbar-item">Graduate</a>
+            <a href="#employment-link" class="navbar-item">Employment</a>
+            <a href="#faculty-link" class="navbar-item">Faculty</a>
+
+          </div>
+    </div>
+</nav>
+
+<!--end navigation-->
+<header class=" pb-auto home">
+  <div class="container">
+    <div class="row mt-6 pt-6">
+      <section class=" mt-6 pt-6" >
+        <h1 class="subtitle is-1 title has-text-centered">INFORMATION SCIENCES & TECHNOLOGIES @ <span class="rit"> <b>RIT</b> </span> </h1>
+      </section>
+
+      <div class="mt-6 has-text-centered">
+        <a href="#about-us"> <button  class="button btn-main">Let's start</button> </a> 
+       </div>
+
+    </div>
+  </div>
+</header>
+
+
+<!-- OVERVIEW HEAD -->
+<section id="about-us" class="has-background-black center has-text-white">
+  <div class="container">
+      <div class="row">
+          <div class="col pt-6 pb-6 ">
+              <h3 class="rit2">About Us</h3>
+              <p class="lead">Find everything about us, who we are, and how we are working </p>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<!--AboutUs-->
+<section class="section" >
+  <div class="container">
+      <div class="columns is-8 is-variable is-vcentered">
+          <div class="column is-5-tablet">
+              <img src="media/aboutUsImg.jpeg" alt="">
+          </div>
+          <div class="column is-7-tablet ">
+              <section id="section-about"></section>
+          </div>
+      </div>
+  </div>
+</section>
+<!--end of about us-->
+
+
+<!-- Undergraduate -->
+<section id="undergraduate-link"  class="has-background-black center has-text-white mt-6">
+  <div class="container">
+      <div class="row">
+          <div class="col pt-6 pb-6 ">
+              <h3 class="rit2">Undergraduate</h3>
+              <p class="lead">See our undergraduate courses</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<div class="bgOtherSections">
+     
+      <section id="section-undergraduate"> </section>
+ 
+</div>
+<!-- end of undergraduate -->
+
+
+<!-- Graduate -->
+<section id="graduate-link" class="has-background-black center has-text-white ">
+  <div class="container">
+      <div class="row">
+          <div class="col pt-6 pb-6 ">
+              <h3 class="rit2">Graduate</h3>
+              <p class="lead">Expand your field of study </p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<div class="  pt-5 ">
+  <div class="  pt-2">
+   
+      
+      <section id="section-graduate"></section>
+
+  </div>
+</div>
+<!-- end of graduate -->
+
+  <!-- employment  -->
+  <div id="employment-link"  class="has-background-black center has-text-white ">
+    <div class="container">
+        <div class="row">
+            <div class="col pt-6 pb-6 ">
+                <h3 class="rit2">Employment</h3>
+                <p class="lead"> View employment and coop history of our students </p>
+            </div>
+        </div>
+    </div>
+  </div>
+
+<div class="bgOtherSections ">
+  
+  <div class="container text-white pt-5 ">
+
+
+    <h1 class="level-item has-text-centered has-text-white subtitle is-2 rit mt-6 mb-2"> <b class="rit2">Coop history of our students</b> </h1>
+    <section class="has-text-white mt-5 mb-6" id="section-coop"></section>
+
+    <h1 class="level-item has-text-centered has-text-white subtitle is-2"> <b>Employment history of our students</b> </h1>
+
+    <section class="has-text-white mt-5 mb-6" id="section-employmentTable"></section>
+
+  </div>
+
+</div>
+
+
+
+ <!-- employment  -->
+ <div id="faculty-link"  class="has-background-black center has-text-white ">
+  <div class="container">
+      <div class="row">
+          <div class="col pt-6 pb-6 ">
+              <h3 class="rit2">People</h3>
+              <p class="lead">See the people that will make your future in IT </p>
+          </div>
+      </div>
+  </div>
+ </div>
+
+
+
+    <div class="mt-5 mb-5">
+      
+      <section id="section-faculty"></section>
+     
+    </div>
+  
+
+
+
+
+    <footer class="footer  has-background-black">
+      <div class="content has-text-centered">
+        <p class="has-text-white">
+          Copyright RIT
+        </p>
+        <p class="has-text-white">by: Domagoj Kurfurst</p>
+      </div>
+    </footer>
+
+
+
+
+   
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+        <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+
+        <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+
+        
+
+
+        <script src="./js/navMenu/hamburgerNav.js"></script>
+
+        <script src="js/app.js" type="module"></script>
+
+
+
+</body>
+
+</html>

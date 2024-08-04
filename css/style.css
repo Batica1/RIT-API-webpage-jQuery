@@ -1,0 +1,78 @@
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+
+.home{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/apple-macbook-ipad-iphone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 620px;
+    margin-top: -25px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.title{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 54px;
+    color: whitesmoke;
+}
+
+.rit{ color: #d85f27; }
+
+.rit2{color: #f07900;}
+
+.btn-main{
+    background-color: #d85f27;
+    color: aliceblue;
+}
+
+
+.newsWandH{
+    height: 100%;
+    width: 100%;
+  }
+  
+.bgOtherSections{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/apple-macbook-ipad-iphone.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 550px;
+}
+
+.red{
+    color: deeppink;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.blue{
+    color: cornflowerblue;
+}
+
+.links a {
+    display: block;
+}
+
+.sticky {
+	position: sticky;
+	top: 0;
+}
+#burger{
+    background-color: black;
+}
+
+.center{
+    text-align: center;
+    font-size: 23px;
+
+}
+
+
